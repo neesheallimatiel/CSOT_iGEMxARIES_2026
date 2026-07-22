@@ -1,0 +1,13 @@
+{
+  "created": "2026-07-21 17:22:35",
+  "dataset": "2018-06-06-ss.cleaned.csv",
+  "seed": 42,
+  "device": "cpu",
+  "files": {
+    "cnn.pt": "CNN state_dict (best-val checkpoint)",
+    "config.json": "hyperparameters + vocab + label map that produced cnn.pt",
+    "split.json": "exact train/val/test chain IDs",
+    "test.fasta": "stand-in held-out test chains (never trained on)",
+    "test_true.csv": "per-residue ground-truth Q3 for test.fasta"
+  }
+}
